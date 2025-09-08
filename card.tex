@@ -1,0 +1,45 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{fontspec} % Use fontspec for XeLaTeX
+
+% Set the main font to a standard font available on Overleaf
+\setmainfont{TeX Gyre Termes}
+
+\pagestyle{empty}
+\setlength\parindent{0pt}
+\usepackage[paperwidth=3.5in, 
+    paperheight=2in,
+    left=0.2in,
+    right=0.2in,
+    top=0.1in,
+    bottom=0.05in]{geometry}
+
+\begin{document}
+
+% Centered content with logo
+\centering
+\includegraphics[width=.25\linewidth]{logo}\\[5pt] % Ensure the logo image is uploaded to Overleaf
+
+% Parbox with John Doe details
+\parbox{2in}{\Large \centering Az Zahra Amon Ra\\[1pt]
+\normalsize M1 Data Science Student}
+
+\vfill
+
+% Contact information in two columns
+\raggedright
+\begin{multicols}{2}
+http://azzahra.amonra-etu\\
+az-zahra-amon.ra.etu@univ-lille
+
+\columnbreak
+\raggedleft
+@azzahraamonra\\
++33 6 22 55 33 77%
+\end{multicols}%
+
+\end{document}
