@@ -19,6 +19,7 @@
 ## Intermediate documents:
 *.dvi
 *.xdv
+.DS_Store
 *-converted-to.*
 # these rules might exclude image files for figures etc.
 # *.ps
