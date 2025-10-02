@@ -22,7 +22,7 @@
 
 % Centered content with logo
 \centering
-\includegraphics[width=.25\linewidth]{new_logo}\\[5pt] % Ensure the logo image is uploaded to Overleaf
+\includegraphics[width=.25\linewidth]{AvatarMaker.png}\\[1pt] % Ensure the logo image is uploaded to Overleaf
 
 % Parbox with John Doe details
 \parbox{2in}{\Large \centering Az Zahra Amon Ra\\[1pt]
@@ -33,13 +33,62 @@
 % Contact information in two columns
 \raggedright
 \begin{multicols}{2}
-http://azzahra.amonra-etu\\
-az-zahra-amon.ra.etu@univ-lille
+\fontsize{7}{10}\selectfont Portfolio: https://azzahraamonra-etu.github.io/\\
+\fontsize{7}{10}\selectfont az-zahra-amon.ra.etu@univ-lille
 
 \columnbreak
 \raggedleft
 @azzahraamonra\\
-+33 6 22 55 33 77%
++33 6 22 55 33 77%\\
+
 \end{multicols}%
+
+\end{document}
+
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multicol}
+%\usepackage{xltxtra}
+%\setromanfont[Mapping=tex-text]{Gill Sans}
+
+\pagestyle{empty}
+\setlength\parindent{0pt}
+\usepackage[paperwidth=3.5in, 
+    paperheight=2in,
+    left=0.2in,
+    right=0.2in,
+    top=0.1in,
+    bottom=0.05in]{geometry}
+
+\begin{document}
+% --- Header with logo + name ---
+\centering
+\includegraphics[width=0.25\linewidth]{logo}\\[6pt]
+
+{\Large \textbf{Ahmad Ramadan}}\\[-2pt]
+
+\normalsize Master Student\\[6pt]
+
+\vspace{0.3cm}
+
+% --- Contact info in two columns ---
+
+Data Science at Centralelille/University of lille\\[6pt]
+\small
+Email: 
+\texttt{ahmad.ramadan2005f@gmail.com}\\[6pt]
+Telephone Number:
+\texttt{+33 6 26 10 44 93}\\[6pt]
+
+ID : \texttt{@aramadan}\\[6pt]
+
+Github:
+\texttt{Ahmadramadan123899}\\[6pt]
+Persenol Github website:\\[2pt]
+\texttt{ https://ahmadramadan123899.github.io/}
 
 \end{document}
